@@ -4,14 +4,10 @@
 
 ## Usage
 
-```powershell
-.\Find-Computers.ps1
-```
-
-Output is stored in a CSV file, created in the current working directory.
-
 **Example:**
 
 ```powershell
 .\Find-Computers.ps1
 ```
+
+Output is stored in a CSV file, created in the current working directory.
