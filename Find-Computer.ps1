@@ -1,3 +1,22 @@
+<#
+.SYNOPSIS
+Finds all computers in the current domain and retrieves their DNS hostnames and corresponding IP addresses.
+
+.DESCRIPTION
+This script finds all computers in the current domain and retrieves their DNS hostnames and corresponding IP addresses.
+It writes the sorted list of IP addresses to a CSV file named "IP_Address_List.csv" in the current working directory.
+
+.PARAMETER <ParameterName>
+None at this time, plan to add parameters in the future.
+
+.EXAMPLE
+PS> .\Find-Computers.ps1
+
+.NOTES
+Currently the script is ran by calling the function at the end of the script.
+Plan in the future is to turn this into a module and add more functions.
+Output is written to a file named "IP_Address_List.csv" in the current working directory.
+#>
 function Find-Computers {
     [CmdletBinding()]
     param (
